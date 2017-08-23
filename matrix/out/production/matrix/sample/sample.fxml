@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Matrix Corteva">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <SplitPane dividerPositions="0.050997782705099776, 0.1286031042128603, 0.20842572062084258, 0.2838137472283814" orientation="VERTICAL" prefHeight="453.0" prefWidth="600.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ProgressBar prefHeight="18.0" prefWidth="600.0" progress="0.0" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefHeight="30.0" prefWidth="126.0" text="启动Matrix核心功能" />
+                           </children>
+                        </AnchorPane>
+
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="47.0" prefWidth="598.0">
+                            <children>
+                              <SplitPane dividerPositions="0.2491638795986622, 0.5066889632107023, 0.774247491638796" prefHeight="31.0" prefWidth="600.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ToggleButton mnemonicParsing="false" prefHeight="29.0" prefWidth="134.0" text="启动Timber拟合" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="83.0" prefWidth="310.0">
+                                       <children>
+                                            <ToggleButton mnemonicParsing="false" prefHeight="28.0" prefWidth="125.0" text="自由扩散" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ToggleButton layoutX="-1.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="127.0" text="环境监察" textAlignment="CENTER" />
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ToggleButton mnemonicParsing="false" prefHeight="29.0" prefWidth="117.0" text="进行物质扩增" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                            </children>
+                        </AnchorPane>
+
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="49.0" prefWidth="598.0">
+                            <children>
+                                <ToggleButton mnemonicParsing="false" prefHeight="28.0" prefWidth="134.0" text="启用随机刺激" />
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="263.0" prefWidth="598.0">
+                           <children>
+                              <TextArea layoutX="-1.0" prefHeight="321.0" prefWidth="600.0" promptText="Matrix Output" text="南岸" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Matrice Contervu">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <PieChart layoutX="323.0" prefHeight="252.0" prefWidth="277.0" title="Running Capacity" />
+                  <LineChart prefHeight="275.0" prefWidth="337.0" title="Active Index">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </LineChart>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
